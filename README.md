@@ -20,13 +20,6 @@ touchx cmd/server/main.go
 
 cases to test:
 
-1. file in current dir does not exist.
-2. file in current dir does exist.
-3. path/file, file does not exist in folder path
-4. path/file, path does not exist
-
-better:
-
 1. file does exist (./file, path/file, path/subpath/file) and every path -> exit
 2. else: file or path does not exist
     1. path(s) exists but not the file -> create file (subpath could not exist!)
